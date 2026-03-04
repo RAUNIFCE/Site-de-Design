@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Produtos | Origema</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container-1">
+
+            <h1 class="logo"><img src="PNGs/ORIGEMA PRETO.png" alt="logo-principal"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                    <li><a href="historia.html" class="clique">CLIQUE AQUI</a></li>
+                    <li><a href="produtos.html">PRODUTOS</a></li>
+                </ul>
+            </nav>
+
+            <div class="icones">
+                <a href="login.html"><img src="ICONS/login.png" alt="login"></a>
+                <a href="favoritos.html"><img src="ICONS/coracao.png"></a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+
+        <section class="produtos-intro">
+
+            <div class="produtos-container">
+
+                <h2>Nossos Produtos</h2>
+
+                <p>
+                    Cada peça da Origema nasce da combinação entre design contemporâneo,
+                    materiais responsáveis e produção consciente.
+                </p>
+
+            </div>
+
+        </section>
+
+        <section class="produtos-filtro">
+
+            <button onclick="filtrar('todos')">Todos</button>
+            <button onclick="filtrar('decoracao')">Decoração</button>
+            <button onclick="filtrar('papelaria')">Papelaria</button>
+            <button onclick="filtrar('utilitarios')">Utilitários</button>
+
+        </section>
+
+
+        <section class="produtos-grid" id="produtos">
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-minimal">
+
+            <h2>Origema</h2>
+
+            <p>
+                Design sustentável que conecta pessoas, materiais e natureza.
+            </p>
+
+            <span>© 2026 Origema — Todos os direitos reservados</span>
+
+        </div>
+
+    </footer>
+
+
+<script src="produtos-data.js"></script>
+<script src="produtos.js"></script>
+
+</body>
+
+</html>
